@@ -36,7 +36,10 @@ def map_to_no_change(source_array)
       total = 0
       i = starting_point
       while i < source_array.length
-      source_array[i] += source_array
+      total += source_array[i]
+      i += 1
+      end
+      
     return total
   end
   
