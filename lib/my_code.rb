@@ -6,9 +6,6 @@ def map_to_negativize(source_array)
     if source_array[i] > 0
     source_array[i] * -1
     new_arr << source_array[i]
-  elsif source_array[i] < 0
-    source_array[i] * -1
-    new_arr << source_array[i]
     end
     i += 1
   end
