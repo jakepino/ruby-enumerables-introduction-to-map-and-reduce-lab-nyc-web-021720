@@ -31,7 +31,14 @@ def map_to_no_change(source_array)
     return new_arr
     
     end  
-  
+    
+    def reduce_to_total(source_array, starting_point)
+      total = 0
+    source_array.each do |ele|
+      total += ele
+    end
+    return total
+  end
   
   
   
