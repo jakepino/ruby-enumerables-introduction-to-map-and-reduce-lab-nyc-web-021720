@@ -7,4 +7,10 @@ def map_to_negativize(source_array)
   return new_arr
 end
 
-de
+def map_to_no_change(source_array)
+ new_arr = []
+ source_array.each do |ele|
+   new_arr << ele
+ end
+ return new_arr
+ end
